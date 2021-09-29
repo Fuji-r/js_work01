@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsのwork1</title>
+    <meta name="description" content="jsのwork1"/>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1>JavaScriptのWORK1</h1>
+
+    <script>
+        // 繰り返し構文で1~10までの数字を足してみよう。もし、足した値が20以上なら、consoleログに「20以上」と出力。20以下なら20以下と出力しよう
+        var num = 1;
+        for (let i = 0; i < 5; i++){
+            num +=i + 1;
+        }
+        if(num >20){
+            console.log("20以上です")
+        }else{
+            console.log("20以下です")
+        }
+        console.log(num);
+    </script>
+</body>
+</html>
